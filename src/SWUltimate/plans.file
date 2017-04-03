@@ -1,0 +1,61 @@
+SIGNS
+      Line 1: [WORLD]
+      Line 2: worldname
+      Line 3: Anything
+      Line 4: Anything
+      
+      
+      Line 1: [COORD]
+      Line 2: x coordinate
+      Line 3: y coordinate
+      Line 4: z coordinate
+      
+      
+      Line 1: [STATUS]
+      Line 2: Empty
+      Line 3: Empty
+      Line 4: Empty
+      
+      
+      Line 1: [SEED-GEN]
+      Line 2: Seed
+      Line 3: World name you want
+      Line 4: Anything
+      
+      
+      Line 1: [TYPE-GEN]
+      Line 2: Types, to be defined in another file
+      Line 3: World name you want
+      Line 4: Anything
+      
+      Line 1: [NO-OP CMD]
+      Line 2: Command
+      Line 3: Anything
+      Line 4: Anything
+      
+      
+      Line 1: [ADMIN CMD]
+      Line 2: Command
+      Line 3: Anything
+      Line 4: Anything
+      
+      
+      Line 1: [ALL-OP CMD]
+      Line 2: Command
+      Line 3: Anything
+      Line 4: Anything
+WORLD MANAGEMENT COMMANDS
+      /seedgenerate <seed> <worldname>
+            Generate a world using a the seed specified.
+      
+      /typegenerate <type> <worldname>
+            Generate a world using the type specified. Types will be in another file.
+ 
+      /worldtp <worldname>
+            Teleport yourself to the world specified.
+
+      /coordtp <x> <y> <z>
+            Teleport yourself to the coordinates specified.
+
+      /loadworld <worldname>
+            Load the world specified.

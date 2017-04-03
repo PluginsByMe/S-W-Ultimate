@@ -1,0 +1,11 @@
+name: S-W-Ultimate
+api: [1.0.0, 2.0.0, 3.0.0] #Not compatible with Pocketmine. Only compatible with ImagicalMine-IC
+version: 1.0
+load: POSTWORLD
+main: SWUltimate\Loader
+author: remote_vase
+
+commands:
+ generate:
+  description: Generate new world (DO NOT USE--> ONLY DEV)
+  usage: "Temporarily disabled"
